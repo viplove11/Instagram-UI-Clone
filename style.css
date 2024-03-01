@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+title {
+    font-family: Lobster Two;
+}
+
+body {
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    padding: 50px;
+}
+
+.main-div {
+    width: 350px;
+    box-shadow: 0px 0px 4px grey;
+    padding: 0;
+}
+
+.clone-head {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.clone-items {
+    display: flex;
+    gap: 30px;
+}
+
+.clone-stories {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 0 1px rgba(0, 0, 0, 0.4)
+}
+
+.clone-stories img {
+    height: 50px;
+    width: 50px;
+    gap: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid palevioletred;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.feed {
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.clone-feed {
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.feed-logo p {
+    margin-top: 5px;
+}
+
+.feed-logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.clone-feed i {
+    margin-top: 7px;
+}
+
+.feed-img img {
+    height: 400px;
+    width: 100%;
+}
+
+.img-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.like-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    box-shadow: 0px 0 4px rgba(0, 0, 0, 0.4)
+}
+
+.you-all {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+}
+
+.caught-up .fa {
+    padding: 10px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    color: palevioletred;
+}
+
+.you-all {
+    box-shadow: 0px 0px 0.8px grey;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.you-all p {
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    text-shadow: 0px 0px 1px black;
+    margin-top: 20px;
+    word-spacing: 10px;
+}
